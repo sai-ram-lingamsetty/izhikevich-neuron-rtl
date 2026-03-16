@@ -21,7 +21,6 @@ module tb_izhikevich_neuron;
         .spike(spike)
     );
 
-    // Clock (100 MHz)
     always #5 clk = ~clk;
 
     initial begin
